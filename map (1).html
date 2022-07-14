@@ -1,0 +1,2163 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_82cab9371d690c3f1b7f04cf5dec219b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_82cab9371d690c3f1b7f04cf5dec219b" ></div>
+        
+</body>
+<script>    
+    
+            var map_82cab9371d690c3f1b7f04cf5dec219b = L.map(
+                "map_82cab9371d690c3f1b7f04cf5dec219b",
+                {
+                    center: [51.92615738095238, -86.48245238095238],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bc5af59d0d9474f6fc87dcfcc32b2007 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var marker_2f2323b527e262c305f94703b41c6261 = L.marker(
+                [48.72304, -55.23023],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_d396460f3c00595dc7648801478ff69e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2f2323b527e262c305f94703b41c6261.setIcon(icon_d396460f3c00595dc7648801478ff69e);
+        
+    
+        var popup_ccb41fe4fcc3b10e4c6f5464e17051dd = L.popup({"maxWidth": 500});
+
+        
+            var html_9ee40a65f79a92085d9b95b6fa5534cd = $(`<div id="html_9ee40a65f79a92085d9b95b6fa5534cd" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Beaver Brook</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Beaver Brook</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">China Minmetals Rare Earth Group Co. Ltd.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Other metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Antimony</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_ccb41fe4fcc3b10e4c6f5464e17051dd.setContent(html_9ee40a65f79a92085d9b95b6fa5534cd);
+        
+
+        marker_2f2323b527e262c305f94703b41c6261.bindPopup(popup_ccb41fe4fcc3b10e4c6f5464e17051dd)
+        ;
+
+        
+    
+    
+            var marker_d263ac140de7ffcd41234d1d4231838c = L.marker(
+                [49.84373, -55.77472],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_1b46909f77149283b7d9b83ea213b6c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d263ac140de7ffcd41234d1d4231838c.setIcon(icon_1b46909f77149283b7d9b83ea213b6c8);
+        
+    
+        var popup_840c8360eeda628caf2934110ad8efd4 = L.popup({"maxWidth": 500});
+
+        
+            var html_1cb94ddc19f048504be83d95ce67428e = $(`<div id="html_1cb94ddc19f048504be83d95ce67428e" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Nugget Pond</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Nugget Pond</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Rambler Metals and Mining PLC</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Copper</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_840c8360eeda628caf2934110ad8efd4.setContent(html_1cb94ddc19f048504be83d95ce67428e);
+        
+
+        marker_d263ac140de7ffcd41234d1d4231838c.bindPopup(popup_840c8360eeda628caf2934110ad8efd4)
+        ;
+
+        
+    
+    
+            var marker_c1caad1c37bb5f552df263ac7999d6b8 = L.marker(
+                [49.91464, -56.08669],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_df8bb940cbd99d2cf39b629a4c410035 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c1caad1c37bb5f552df263ac7999d6b8.setIcon(icon_df8bb940cbd99d2cf39b629a4c410035);
+        
+    
+        var popup_6e971ca63536960eaee7a9f9558dafc6 = L.popup({"maxWidth": 500});
+
+        
+            var html_1e95ef3b707449986ac13df10c4cc26a = $(`<div id="html_1e95ef3b707449986ac13df10c4cc26a" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Ming</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Ming</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Rambler Metals and Mining Canada Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Copper, gold, silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_6e971ca63536960eaee7a9f9558dafc6.setContent(html_1e95ef3b707449986ac13df10c4cc26a);
+        
+
+        marker_c1caad1c37bb5f552df263ac7999d6b8.bindPopup(popup_6e971ca63536960eaee7a9f9558dafc6)
+        ;
+
+        
+    
+    
+            var marker_cb169d60d6d233e927e2d2fc6852b8f3 = L.marker(
+                [49.96115, -56.1247],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_96ebfbc4487a0805361ad38e5c1755a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cb169d60d6d233e927e2d2fc6852b8f3.setIcon(icon_96ebfbc4487a0805361ad38e5c1755a6);
+        
+    
+        var popup_abff2f3e5932a95f31a523097a9e3e7a = L.popup({"maxWidth": 500});
+
+        
+            var html_18984002a0fad8591896f1ee61108688 = $(`<div id="html_18984002a0fad8591896f1ee61108688" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Point Rousse</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Point Rousse</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Anaconda Mining Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_abff2f3e5932a95f31a523097a9e3e7a.setContent(html_18984002a0fad8591896f1ee61108688);
+        
+
+        marker_cb169d60d6d233e927e2d2fc6852b8f3.bindPopup(popup_abff2f3e5932a95f31a523097a9e3e7a)
+        ;
+
+        
+    
+    
+            var marker_e2882b7c6729d3d65725ea6849c6472e = L.marker(
+                [56.33074, -62.09187],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_8fb383265a9aa77a58bc9b8b999dbffb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e2882b7c6729d3d65725ea6849c6472e.setIcon(icon_8fb383265a9aa77a58bc9b8b999dbffb);
+        
+    
+        var popup_54e312e240c186aa842ee27e1fb6a9c0 = L.popup({"maxWidth": 500});
+
+        
+            var html_7bf2aa8b4235f367b170695596b1e808 = $(`<div id="html_7bf2aa8b4235f367b170695596b1e808" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Voisey’s Bay</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Voisey’s Bay</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Vale Newfoundland and Labrador Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Nickel, copper, cobalt</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_54e312e240c186aa842ee27e1fb6a9c0.setContent(html_7bf2aa8b4235f367b170695596b1e808);
+        
+
+        marker_e2882b7c6729d3d65725ea6849c6472e.bindPopup(popup_54e312e240c186aa842ee27e1fb6a9c0)
+        ;
+
+        
+    
+    
+            var marker_348067a13c5cdf93a8f2dc4c7c071b92 = L.marker(
+                [52.90635, -66.91258],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_2821061c9a2486f8c9afd985cabe320f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_348067a13c5cdf93a8f2dc4c7c071b92.setIcon(icon_2821061c9a2486f8c9afd985cabe320f);
+        
+    
+        var popup_76f4411769b7b61506fb0c92108798f0 = L.popup({"maxWidth": 500});
+
+        
+            var html_236e24f522a8733bccd201cf9f75d4d9 = $(`<div id="html_236e24f522a8733bccd201cf9f75d4d9" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Scully</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Scully</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Tacora Resources Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_76f4411769b7b61506fb0c92108798f0.setContent(html_236e24f522a8733bccd201cf9f75d4d9);
+        
+
+        marker_348067a13c5cdf93a8f2dc4c7c071b92.bindPopup(popup_76f4411769b7b61506fb0c92108798f0)
+        ;
+
+        
+    
+    
+            var marker_269e4abc0ee33c5c805f40279fb77a29 = L.marker(
+                [53.03966, -66.93652],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_13f1afc15a9ce3b52924ac540a26ace7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_269e4abc0ee33c5c805f40279fb77a29.setIcon(icon_13f1afc15a9ce3b52924ac540a26ace7);
+        
+    
+        var popup_3c876b3f51794c33ed3f05e01311bc52 = L.popup({"maxWidth": 500});
+
+        
+            var html_19011213b812a3c5dc94c90b94cc03c0 = $(`<div id="html_19011213b812a3c5dc94c90b94cc03c0" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Carol Lake</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Carol Lake</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron Ore Company of Canada Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_3c876b3f51794c33ed3f05e01311bc52.setContent(html_19011213b812a3c5dc94c90b94cc03c0);
+        
+
+        marker_269e4abc0ee33c5c805f40279fb77a29.bindPopup(popup_3c876b3f51794c33ed3f05e01311bc52)
+        ;
+
+        
+    
+    
+            var marker_af7981e8cc530c130c25849057de4ce0 = L.marker(
+                [54.89119, -67.08169],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_4a121fda01c75cc888c3cbd68b89d661 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_af7981e8cc530c130c25849057de4ce0.setIcon(icon_4a121fda01c75cc888c3cbd68b89d661);
+        
+    
+        var popup_e11ffe41b7b55cf1ed04f0e3255774ad = L.popup({"maxWidth": 500});
+
+        
+            var html_565d13e5a993773ce117377d0275c0c0 = $(`<div id="html_565d13e5a993773ce117377d0275c0c0" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">DSO (Timmins)</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">DSO (Timmins)</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Tata Steel Minerals Canada Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_e11ffe41b7b55cf1ed04f0e3255774ad.setContent(html_565d13e5a993773ce117377d0275c0c0);
+        
+
+        marker_af7981e8cc530c130c25849057de4ce0.bindPopup(popup_e11ffe41b7b55cf1ed04f0e3255774ad)
+        ;
+
+        
+    
+    
+            var marker_67b96d9f4545f6fc01532b2d51cc6260 = L.marker(
+                [44.98239, -62.94244],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_16296ae6b0df19e854a7212e86b5149d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_67b96d9f4545f6fc01532b2d51cc6260.setIcon(icon_16296ae6b0df19e854a7212e86b5149d);
+        
+    
+        var popup_d49527fb04a401294d2f9303e14e1729 = L.popup({"maxWidth": 500});
+
+        
+            var html_e56214bd37d6a8777629789fd2f4ef45 = $(`<div id="html_e56214bd37d6a8777629789fd2f4ef45" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Moose River Consolidated</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Moose River Consolidated</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">St Barbara Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_d49527fb04a401294d2f9303e14e1729.setContent(html_e56214bd37d6a8777629789fd2f4ef45);
+        
+
+        marker_67b96d9f4545f6fc01532b2d51cc6260.bindPopup(popup_d49527fb04a401294d2f9303e14e1729)
+        ;
+
+        
+    
+    
+            var marker_7c50d9fed1ea36b38b72a1b6a7a63b8b = L.marker(
+                [47.56548, -66.29158],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_6c8ee07c23fabb4dba0deb0d0d957381 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7c50d9fed1ea36b38b72a1b6a7a63b8b.setIcon(icon_6c8ee07c23fabb4dba0deb0d0d957381);
+        
+    
+        var popup_03aa9d9065d7671308767bac973e9605 = L.popup({"maxWidth": 500});
+
+        
+            var html_91c58ba9b8461e819423364b7a2cba53 = $(`<div id="html_91c58ba9b8461e819423364b7a2cba53" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Caribou</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Caribou</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Trevali Mining Corp.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Zinc, lead, silver, gold </td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_03aa9d9065d7671308767bac973e9605.setContent(html_91c58ba9b8461e819423364b7a2cba53);
+        
+
+        marker_7c50d9fed1ea36b38b72a1b6a7a63b8b.bindPopup(popup_03aa9d9065d7671308767bac973e9605)
+        ;
+
+        
+    
+    
+            var marker_aec140457c6e7ebc46889dd9ce74aa4b = L.marker(
+                [50.55349, -63.41615],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_d728f0ea096e2c8c942ee41efa865cd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_aec140457c6e7ebc46889dd9ce74aa4b.setIcon(icon_d728f0ea096e2c8c942ee41efa865cd2);
+        
+    
+        var popup_f3751f4000225a5ce9745b3423545d3b = L.popup({"maxWidth": 500});
+
+        
+            var html_e2bc01d7888a5f9f6761e1144de3dd63 = $(`<div id="html_e2bc01d7888a5f9f6761e1144de3dd63" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Lac Tio</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Lac Tio</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Rio Tinto Group</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Other metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Ilmenite</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_f3751f4000225a5ce9745b3423545d3b.setContent(html_e2bc01d7888a5f9f6761e1144de3dd63);
+        
+
+        marker_aec140457c6e7ebc46889dd9ce74aa4b.bindPopup(popup_f3751f4000225a5ce9745b3423545d3b)
+        ;
+
+        
+    
+    
+            var marker_b91783f46346b2cd39b336263f23045c = L.marker(
+                [52.84003, -67.28004],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_0c135708a9a428ae15b0d0900dbafcd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b91783f46346b2cd39b336263f23045c.setIcon(icon_0c135708a9a428ae15b0d0900dbafcd4);
+        
+    
+        var popup_dff0907f03751d798ce8923a0b5404e5 = L.popup({"maxWidth": 500});
+
+        
+            var html_a1ab3dc7c92a22d8b384c6f8b230774a = $(`<div id="html_a1ab3dc7c92a22d8b384c6f8b230774a" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Bloom Lake</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Bloom Lake</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Champion Iron Ltd.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_dff0907f03751d798ce8923a0b5404e5.setContent(html_a1ab3dc7c92a22d8b384c6f8b230774a);
+        
+
+        marker_b91783f46346b2cd39b336263f23045c.bindPopup(popup_dff0907f03751d798ce8923a0b5404e5)
+        ;
+
+        
+    
+    
+            var marker_63774e9595fd8485e061e242ee80e9ca = L.marker(
+                [52.75663, -67.32959],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_5bd5453e25f2c0a90231ddd584314d7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_63774e9595fd8485e061e242ee80e9ca.setIcon(icon_5bd5453e25f2c0a90231ddd584314d7c);
+        
+    
+        var popup_9204639b8411f9de2795f33034fb61b5 = L.popup({"maxWidth": 500});
+
+        
+            var html_ad26c0a7d0ed55453f5a9a40d91dfd65 = $(`<div id="html_ad26c0a7d0ed55453f5a9a40d91dfd65" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Mont-Wright</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Mont-Wright</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">ArcelorMittal </td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_9204639b8411f9de2795f33034fb61b5.setContent(html_ad26c0a7d0ed55453f5a9a40d91dfd65);
+        
+
+        marker_63774e9595fd8485e061e242ee80e9ca.bindPopup(popup_9204639b8411f9de2795f33034fb61b5)
+        ;
+
+        
+    
+    
+            var marker_21039d18e1f45a206a3dab6cd197049a = L.marker(
+                [55.09861, -67.34778],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_03828fd27dad24dbe7296687186944e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_21039d18e1f45a206a3dab6cd197049a.setIcon(icon_03828fd27dad24dbe7296687186944e6);
+        
+    
+        var popup_c26d7d4334823caf45a62f22e2b9a095 = L.popup({"maxWidth": 500});
+
+        
+            var html_0c97d63d50447a9128449a3b558fc3fa = $(`<div id="html_0c97d63d50447a9128449a3b558fc3fa" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">DSO (Goodwood)</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">DSO (Goodwood)</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Tata Steel Minerals Canada Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_c26d7d4334823caf45a62f22e2b9a095.setContent(html_0c97d63d50447a9128449a3b558fc3fa);
+        
+
+        marker_21039d18e1f45a206a3dab6cd197049a.bindPopup(popup_c26d7d4334823caf45a62f22e2b9a095)
+        ;
+
+        
+    
+    
+            var marker_74e643a10247afcc9f7ecd985640f426 = L.marker(
+                [52.35233, -67.36385],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_8abd6e61bb586aa2add538dd67ddb2b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_74e643a10247afcc9f7ecd985640f426.setIcon(icon_8abd6e61bb586aa2add538dd67ddb2b1);
+        
+    
+        var popup_2182a2fdd20783a81f29c395bdfd6f5b = L.popup({"maxWidth": 500});
+
+        
+            var html_ccfa26292c2605743c1597fd21ee3d58 = $(`<div id="html_ccfa26292c2605743c1597fd21ee3d58" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Fire Lake</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Fire Lake</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">ArcelorMittal</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_2182a2fdd20783a81f29c395bdfd6f5b.setContent(html_ccfa26292c2605743c1597fd21ee3d58);
+        
+
+        marker_74e643a10247afcc9f7ecd985640f426.bindPopup(popup_2182a2fdd20783a81f29c395bdfd6f5b)
+        ;
+
+        
+    
+    
+            var marker_06bdbd8f9a42707069769d22c60fd92c = L.marker(
+                [48.53189, -71.15733],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_227fad56164b472289eb7b784ccfab1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_06bdbd8f9a42707069769d22c60fd92c.setIcon(icon_227fad56164b472289eb7b784ccfab1c);
+        
+    
+        var popup_ba191b03d5dc6d80312b11c951dd23fa = L.popup({"maxWidth": 500});
+
+        
+            var html_d8eba2588994735d14d5fe166ffbb4ea = $(`<div id="html_d8eba2588994735d14d5fe166ffbb4ea" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Niobec</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Niobec</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Magris Resources Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Other metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Niobium</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_ba191b03d5dc6d80312b11c951dd23fa.setContent(html_d8eba2588994735d14d5fe166ffbb4ea);
+        
+
+        marker_06bdbd8f9a42707069769d22c60fd92c.bindPopup(popup_ba191b03d5dc6d80312b11c951dd23fa)
+        ;
+
+        
+    
+    
+            var marker_e81180ffef1c2fe2ae2f5cbc9e868ad7 = L.marker(
+                [64.68708, -73.674],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_d7e6d51bb783bef8affaa2cc42dbb824 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e81180ffef1c2fe2ae2f5cbc9e868ad7.setIcon(icon_d7e6d51bb783bef8affaa2cc42dbb824);
+        
+    
+        var popup_7dc81bd2743d864b7f8f66e8f32ed874 = L.popup({"maxWidth": 500});
+
+        
+            var html_30f53500096ad7dbd5d311fd109bb906 = $(`<div id="html_30f53500096ad7dbd5d311fd109bb906" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Raglan</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Raglan</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Glencore Canada Corporation</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Nickel, platinum group metals, copper, cobalt, gold, silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_7dc81bd2743d864b7f8f66e8f32ed874.setContent(html_30f53500096ad7dbd5d311fd109bb906);
+        
+
+        marker_e81180ffef1c2fe2ae2f5cbc9e868ad7.bindPopup(popup_7dc81bd2743d864b7f8f66e8f32ed874)
+        ;
+
+        
+    
+    
+            var marker_70b79a8eb2bd8698d3f778268d5a5447 = L.marker(
+                [61.42392, -74.13443],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_28f0a5a6208676afef4f2996226b012e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_70b79a8eb2bd8698d3f778268d5a5447.setIcon(icon_28f0a5a6208676afef4f2996226b012e);
+        
+    
+        var popup_dd58db54bd161f9c4d819601cfac618f = L.popup({"maxWidth": 500});
+
+        
+            var html_9f16a9657aa883d0d4f834c1cf2a4acb = $(`<div id="html_9f16a9657aa883d0d4f834c1cf2a4acb" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Nunavik</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Nunavik</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Canadian Royalties Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Nickel, copper, platinum group metals, cobalt</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_dd58db54bd161f9c4d819601cfac618f.setContent(html_9f16a9657aa883d0d4f834c1cf2a4acb);
+        
+
+        marker_70b79a8eb2bd8698d3f778268d5a5447.bindPopup(popup_dd58db54bd161f9c4d819601cfac618f)
+        ;
+
+        
+    
+    
+            var marker_0827222ba2155b6467eb624a6efadd1d = L.marker(
+                [52.69838, -76.08657],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_dce9f62c758b7df595b1016a30eff12f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0827222ba2155b6467eb624a6efadd1d.setIcon(icon_dce9f62c758b7df595b1016a30eff12f);
+        
+    
+        var popup_9b4b6e11e08b1dfd5082afd79bc6949d = L.popup({"maxWidth": 500});
+
+        
+            var html_4ff385da8ba9b2678a8114b39eaade0b = $(`<div id="html_4ff385da8ba9b2678a8114b39eaade0b" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Éléonore</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Éléonore</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Newmont Corp.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_9b4b6e11e08b1dfd5082afd79bc6949d.setContent(html_4ff385da8ba9b2678a8114b39eaade0b);
+        
+
+        marker_0827222ba2155b6467eb624a6efadd1d.bindPopup(popup_9b4b6e11e08b1dfd5082afd79bc6949d)
+        ;
+
+        
+    
+    
+            var marker_0ed9812f8c4b508b03595d68c98a4a78 = L.marker(
+                [49.68431, -77.66075],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_d77b6e15f7d180dba145cfaa74478199 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0ed9812f8c4b508b03595d68c98a4a78.setIcon(icon_d77b6e15f7d180dba145cfaa74478199);
+        
+    
+        var popup_5e334bf82a9f891a76a51ff5a340664c = L.popup({"maxWidth": 500});
+
+        
+            var html_a2170ef4e45d1c3bc746fdbabd656a82 = $(`<div id="html_a2170ef4e45d1c3bc746fdbabd656a82" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Bracemac-McLeod</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Bracemac-McLeod</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Glencore Canada Corporation</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals and precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Zinc, copper, gold, silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_5e334bf82a9f891a76a51ff5a340664c.setContent(html_a2170ef4e45d1c3bc746fdbabd656a82);
+        
+
+        marker_0ed9812f8c4b508b03595d68c98a4a78.bindPopup(popup_5e334bf82a9f891a76a51ff5a340664c)
+        ;
+
+        
+    
+    
+            var marker_337edad4b0303639f6df89938787977f = L.marker(
+                [48.07908, -77.7401],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_510c2a74b5acfdf51b0bdebaed67c44c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_337edad4b0303639f6df89938787977f.setIcon(icon_510c2a74b5acfdf51b0bdebaed67c44c);
+        
+    
+        var popup_85bc72b812ec8e7ce2b14414e2c2c4ac = L.popup({"maxWidth": 500});
+
+        
+            var html_a20724123e117e7996f9c72d62a8634e = $(`<div id="html_a20724123e117e7996f9c72d62a8634e" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Lamaque</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Lamaque</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Eldorado Gold</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_85bc72b812ec8e7ce2b14414e2c2c4ac.setContent(html_a20724123e117e7996f9c72d62a8634e);
+        
+
+        marker_337edad4b0303639f6df89938787977f.bindPopup(popup_85bc72b812ec8e7ce2b14414e2c2c4ac)
+        ;
+
+        
+    
+    
+            var marker_32c9bc11f7da89ae543aa913ed9da817 = L.marker(
+                [48.09235, -77.87322],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_c384d3c624382f1772ee0f6e2995431f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_32c9bc11f7da89ae543aa913ed9da817.setIcon(icon_c384d3c624382f1772ee0f6e2995431f);
+        
+    
+        var popup_5a2f32c3f0fbf3fc7597f917cca0d50d = L.popup({"maxWidth": 500});
+
+        
+            var html_f433138cc7f3bb0e9ffd9d1df27b62a7 = $(`<div id="html_f433138cc7f3bb0e9ffd9d1df27b62a7" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Goldex</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Goldex</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Agnico Eagle Mines Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, Silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_5a2f32c3f0fbf3fc7597f917cca0d50d.setContent(html_f433138cc7f3bb0e9ffd9d1df27b62a7);
+        
+
+        marker_32c9bc11f7da89ae543aa913ed9da817.bindPopup(popup_5a2f32c3f0fbf3fc7597f917cca0d50d)
+        ;
+
+        
+    
+    
+            var marker_1b5effeb03de64bebd9dab0b7fecdc76 = L.marker(
+                [49.13232, -77.97413],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_2487f0942deab7efa166845b81a7577a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1b5effeb03de64bebd9dab0b7fecdc76.setIcon(icon_2487f0942deab7efa166845b81a7577a);
+        
+    
+        var popup_13e97a030b0db07a4f216bf14c7bf587 = L.popup({"maxWidth": 500});
+
+        
+            var html_54c0dc37bacbec59c2cf842955922a4d = $(`<div id="html_54c0dc37bacbec59c2cf842955922a4d" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Sleeping Giant</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Sleeping Giant</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Abcourt Mines Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, Silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_13e97a030b0db07a4f216bf14c7bf587.setContent(html_54c0dc37bacbec59c2cf842955922a4d);
+        
+
+        marker_1b5effeb03de64bebd9dab0b7fecdc76.bindPopup(popup_13e97a030b0db07a4f216bf14c7bf587)
+        ;
+
+        
+    
+    
+            var marker_cc976dd7213a06693f6c15633212bff1 = L.marker(
+                [48.12176, -78.13088],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_f82d5a17b6c26ec37b998880a1f7b07d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cc976dd7213a06693f6c15633212bff1.setIcon(icon_f82d5a17b6c26ec37b998880a1f7b07d);
+        
+    
+        var popup_e3f863905aeb5e68ac21435c75fd4a31 = L.popup({"maxWidth": 500});
+
+        
+            var html_eb05b8f2b86e5530662e78c0e87bfb57 = $(`<div id="html_eb05b8f2b86e5530662e78c0e87bfb57" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Canadian Malartic</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Canadian Malartic</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Agnico Eagle Mines Limited and Yamana Gold Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, Silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_e3f863905aeb5e68ac21435c75fd4a31.setContent(html_eb05b8f2b86e5530662e78c0e87bfb57);
+        
+
+        marker_cc976dd7213a06693f6c15633212bff1.bindPopup(popup_e3f863905aeb5e68ac21435c75fd4a31)
+        ;
+
+        
+    
+    
+            var marker_04a4b5652dcf316ed8b5d6a4218dff38 = L.marker(
+                [48.25094, -78.42765],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_c3cf97e06a060e9fe4603456450f7800 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_04a4b5652dcf316ed8b5d6a4218dff38.setIcon(icon_c3cf97e06a060e9fe4603456450f7800);
+        
+    
+        var popup_db1a93389a272f8e8599f4c5752d2a4a = L.popup({"maxWidth": 500});
+
+        
+            var html_25fef07cbebca2f733bb3b9d66dea160 = $(`<div id="html_25fef07cbebca2f733bb3b9d66dea160" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">LaRonde</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">LaRonde</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Agnico Eagle Mines Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, zinc, copper, silver, cadmium</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_db1a93389a272f8e8599f4c5752d2a4a.setContent(html_25fef07cbebca2f733bb3b9d66dea160);
+        
+
+        marker_04a4b5652dcf316ed8b5d6a4218dff38.bindPopup(popup_db1a93389a272f8e8599f4c5752d2a4a)
+        ;
+
+        
+    
+    
+            var marker_042e7f6473eaab45672820b6d8c4fbce = L.marker(
+                [48.25144, -78.4519],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_cc5a82ef53a79849297d4b02789b76c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_042e7f6473eaab45672820b6d8c4fbce.setIcon(icon_cc5a82ef53a79849297d4b02789b76c9);
+        
+    
+        var popup_2978654d6a9f2e2ef0778126da615790 = L.popup({"maxWidth": 500});
+
+        
+            var html_60bd471daaba6aaf4d4c1645f8e6c209 = $(`<div id="html_60bd471daaba6aaf4d4c1645f8e6c209" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">LaRonde - Zone 5</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">LaRonde - Zone 5</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Agnico Eagle Mines Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_2978654d6a9f2e2ef0778126da615790.setContent(html_60bd471daaba6aaf4d4c1645f8e6c209);
+        
+
+        marker_042e7f6473eaab45672820b6d8c4fbce.bindPopup(popup_2978654d6a9f2e2ef0778126da615790)
+        ;
+
+        
+    
+    
+            var marker_48feedfa86afaad158844fefa45064ce = L.marker(
+                [48.25548, -78.5023],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_222b21b092301294bb8eb8c3297dafaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_48feedfa86afaad158844fefa45064ce.setIcon(icon_222b21b092301294bb8eb8c3297dafaf);
+        
+    
+        var popup_85be2f5ea32a685ff1087743924cb273 = L.popup({"maxWidth": 500});
+
+        
+            var html_9ef9b4e9ca118777511bd32db504810b = $(`<div id="html_9ef9b4e9ca118777511bd32db504810b" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Westwood-Doyon</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Westwood-Doyon</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">IAMGOLD Corporation</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, Silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_85be2f5ea32a685ff1087743924cb273.setContent(html_9ef9b4e9ca118777511bd32db504810b);
+        
+
+        marker_48feedfa86afaad158844fefa45064ce.bindPopup(popup_85be2f5ea32a685ff1087743924cb273)
+        ;
+
+        
+    
+    
+            var marker_ee8a658c50280ccbbd2546be9397b381 = L.marker(
+                [48.28632, -79.13035],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_a462adb02c2cc678ab272eca0de1c2bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ee8a658c50280ccbbd2546be9397b381.setIcon(icon_a462adb02c2cc678ab272eca0de1c2bb);
+        
+    
+        var popup_93a4054eb8fe4bcc0489587d60737ebb = L.popup({"maxWidth": 500});
+
+        
+            var html_4992674b68aecc08ae655b998c929e6a = $(`<div id="html_4992674b68aecc08ae655b998c929e6a" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Elder</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Elder</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Abcourt Mines Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, Silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_93a4054eb8fe4bcc0489587d60737ebb.setContent(html_4992674b68aecc08ae655b998c929e6a);
+        
+
+        marker_ee8a658c50280ccbbd2546be9397b381.bindPopup(popup_93a4054eb8fe4bcc0489587d60737ebb)
+        ;
+
+        
+    
+    
+            var marker_2d691c76651bb258baa52de4056b8c51 = L.marker(
+                [49.57195, -79.23153],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_0ec0f227fd8f10a695aec875238a2d35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2d691c76651bb258baa52de4056b8c51.setIcon(icon_0ec0f227fd8f10a695aec875238a2d35);
+        
+    
+        var popup_a96e6121007e2797d8ec7893d86735ed = L.popup({"maxWidth": 500});
+
+        
+            var html_e155116c7cef5182a66a2146427c25c6 = $(`<div id="html_e155116c7cef5182a66a2146427c25c6" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Casa Berardi</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Casa Berardi</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Hecla Mining Company</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, Silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_a96e6121007e2797d8ec7893d86735ed.setContent(html_e155116c7cef5182a66a2146427c25c6);
+        
+
+        marker_2d691c76651bb258baa52de4056b8c51.bindPopup(popup_a96e6121007e2797d8ec7893d86735ed)
+        ;
+
+        
+    
+    
+            var marker_08e97e8132f9e2b10b0e1d7671b71b02 = L.marker(
+                [48.11968, -77.91018],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_7b797fbcd7fc3e9c0ece506a3989cf0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_08e97e8132f9e2b10b0e1d7671b71b02.setIcon(icon_7b797fbcd7fc3e9c0ece506a3989cf0b);
+        
+    
+        var popup_9692465c12b7818ec82bcc452a5e3ac6 = L.popup({"maxWidth": 500});
+
+        
+            var html_c5c61d5989cba89ba5879a5643146284 = $(`<div id="html_c5c61d5989cba89ba5879a5643146284" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Kiena</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Kiena</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Wesdome Gold Mines Ltd.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_9692465c12b7818ec82bcc452a5e3ac6.setContent(html_c5c61d5989cba89ba5879a5643146284);
+        
+
+        marker_08e97e8132f9e2b10b0e1d7671b71b02.bindPopup(popup_9692465c12b7818ec82bcc452a5e3ac6)
+        ;
+
+        
+    
+    
+            var marker_f58d7496efe005e71a036584e4edaedd = L.marker(
+                [50.01802, -79.71754],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_f5986f474c05aaeb2466072800ed83bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f58d7496efe005e71a036584e4edaedd.setIcon(icon_f5986f474c05aaeb2466072800ed83bd);
+        
+    
+        var popup_bd9f225dd0e47c88f76409075be15b6f = L.popup({"maxWidth": 500});
+
+        
+            var html_595a5dac05eccf14213249f5f3517c34 = $(`<div id="html_595a5dac05eccf14213249f5f3517c34" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Detour Lake</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Detour Lake</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Kirkland Lake Gold Ltd.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_bd9f225dd0e47c88f76409075be15b6f.setContent(html_595a5dac05eccf14213249f5f3517c34);
+        
+
+        marker_f58d7496efe005e71a036584e4edaedd.bindPopup(popup_bd9f225dd0e47c88f76409075be15b6f)
+        ;
+
+        
+    
+    
+            var marker_02ae7ecaedab6469080a18cc88d6572a = L.marker(
+                [48.14241, -80.07155],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_85a3e4d1464c1c793b50c5c3e0a39e1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_02ae7ecaedab6469080a18cc88d6572a.setIcon(icon_85a3e4d1464c1c793b50c5c3e0a39e1a);
+        
+    
+        var popup_de4059921d87562354ca186cceb76b48 = L.popup({"maxWidth": 500});
+
+        
+            var html_4f9ee3a0378512e230aa485c3c6701d9 = $(`<div id="html_4f9ee3a0378512e230aa485c3c6701d9" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Macassa</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Macassa</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Kirkland Lake Gold Ltd.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, Silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_de4059921d87562354ca186cceb76b48.setContent(html_4f9ee3a0378512e230aa485c3c6701d9);
+        
+
+        marker_02ae7ecaedab6469080a18cc88d6572a.bindPopup(popup_de4059921d87562354ca186cceb76b48)
+        ;
+
+        
+    
+    
+            var marker_576c9a25ff6ee680bfb13567fde491c4 = L.marker(
+                [48.53413, -80.34077],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_f04e14a9a5f4713a562cca7924d4e66f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_576c9a25ff6ee680bfb13567fde491c4.setIcon(icon_f04e14a9a5f4713a562cca7924d4e66f);
+        
+    
+        var popup_6d6cdf773f391080ba0b60d3b96578d1 = L.popup({"maxWidth": 500});
+
+        
+            var html_8387432d1286ba39ed6f17b009707ece = $(`<div id="html_8387432d1286ba39ed6f17b009707ece" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Black Fox</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Black Fox</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">McEwen Mining Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_6d6cdf773f391080ba0b60d3b96578d1.setContent(html_8387432d1286ba39ed6f17b009707ece);
+        
+
+        marker_576c9a25ff6ee680bfb13567fde491c4.bindPopup(popup_6d6cdf773f391080ba0b60d3b96578d1)
+        ;
+
+        
+    
+    
+            var marker_93d35750d736d57b02a5b8d2bc02bc81 = L.marker(
+                [47.9464, -80.67495],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_ade7f45de080589ecf90f928722caaf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_93d35750d736d57b02a5b8d2bc02bc81.setIcon(icon_ade7f45de080589ecf90f928722caaf1);
+        
+    
+        var popup_f783522eb3c908c36e397bc3370f62d1 = L.popup({"maxWidth": 500});
+
+        
+            var html_472cce89cef23b4030ffc3d2043f71b8 = $(`<div id="html_472cce89cef23b4030ffc3d2043f71b8" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Young-Davidson</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Young-Davidson</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Alamos Gold Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_f783522eb3c908c36e397bc3370f62d1.setContent(html_472cce89cef23b4030ffc3d2043f71b8);
+        
+
+        marker_93d35750d736d57b02a5b8d2bc02bc81.bindPopup(popup_f783522eb3c908c36e397bc3370f62d1)
+        ;
+
+        
+    
+    
+            var marker_061a57616007caeaade5b2f3944b0ff0 = L.marker(
+                [46.65758, -80.79662],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_c263495b1f8ef6b87b13c5ba509dc6a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_061a57616007caeaade5b2f3944b0ff0.setIcon(icon_c263495b1f8ef6b87b13c5ba509dc6a5);
+        
+    
+        var popup_c94a72b9603b781a078f51d03f3f6d98 = L.popup({"maxWidth": 500});
+
+        
+            var html_6fe4c9b49f134a189a7c62ed3bbbc0a0 = $(`<div id="html_6fe4c9b49f134a189a7c62ed3bbbc0a0" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Nickel Rim South</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Nickel Rim South</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Glencore Canada Corporation</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Nickel, copper, cobalt, platinum group metals, gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_c94a72b9603b781a078f51d03f3f6d98.setContent(html_6fe4c9b49f134a189a7c62ed3bbbc0a0);
+        
+
+        marker_061a57616007caeaade5b2f3944b0ff0.bindPopup(popup_c94a72b9603b781a078f51d03f3f6d98)
+        ;
+
+        
+    
+    
+            var marker_0424e7602128acb8741532dd1f1aefcb = L.marker(
+                [46.56775, -80.85719],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_77887b00db0f935148c094c09c6481f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0424e7602128acb8741532dd1f1aefcb.setIcon(icon_77887b00db0f935148c094c09c6481f9);
+        
+    
+        var popup_5dbe98911e047123169a5282028a8974 = L.popup({"maxWidth": 500});
+
+        
+            var html_78d2dd61f3127432d0fe58f7330a734e = $(`<div id="html_78d2dd61f3127432d0fe58f7330a734e" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Garson</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Garson</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Vale Canada Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_5dbe98911e047123169a5282028a8974.setContent(html_78d2dd61f3127432d0fe58f7330a734e);
+        
+
+        marker_0424e7602128acb8741532dd1f1aefcb.bindPopup(popup_5dbe98911e047123169a5282028a8974)
+        ;
+
+        
+    
+    
+            var marker_df3a1a0517eebe4c4e76ebf9ef2bb23f = L.marker(
+                [46.49555, -81.05665],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_a3dbad5026f5a7207fe6e788801896a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_df3a1a0517eebe4c4e76ebf9ef2bb23f.setIcon(icon_a3dbad5026f5a7207fe6e788801896a1);
+        
+    
+        var popup_2cab9ff3246289b67f777a4c5ab7b4d8 = L.popup({"maxWidth": 500});
+
+        
+            var html_858c20e5f5afec31af44c97d3d630a4f = $(`<div id="html_858c20e5f5afec31af44c97d3d630a4f" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Clarabelle</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Clarabelle</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Vale Canada Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_2cab9ff3246289b67f777a4c5ab7b4d8.setContent(html_858c20e5f5afec31af44c97d3d630a4f);
+        
+
+        marker_df3a1a0517eebe4c4e76ebf9ef2bb23f.bindPopup(popup_2cab9ff3246289b67f777a4c5ab7b4d8)
+        ;
+
+        
+    
+    
+            var marker_328dc7d38241dfae91ae38001f98496e = L.marker(
+                [46.49122, -81.06853],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_8f80b33de9d1ed86ac92acdf453dae66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_328dc7d38241dfae91ae38001f98496e.setIcon(icon_8f80b33de9d1ed86ac92acdf453dae66);
+        
+    
+        var popup_d39ee873041c2bed92ec069ed4e417b0 = L.popup({"maxWidth": 500});
+
+        
+            var html_941c4aefea2b48cdb5c7ce58d7737ff6 = $(`<div id="html_941c4aefea2b48cdb5c7ce58d7737ff6" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Copper Cliff North</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Copper Cliff North</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Vale Canada Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_d39ee873041c2bed92ec069ed4e417b0.setContent(html_941c4aefea2b48cdb5c7ce58d7737ff6);
+        
+
+        marker_328dc7d38241dfae91ae38001f98496e.bindPopup(popup_d39ee873041c2bed92ec069ed4e417b0)
+        ;
+
+        
+    
+    
+            var marker_c24a802d402b2e3a027ff65354fc629a = L.marker(
+                [48.55175, -81.10803],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_c3986159e33f6f244ab860af0fa6cd0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c24a802d402b2e3a027ff65354fc629a.setIcon(icon_c3986159e33f6f244ab860af0fa6cd0a);
+        
+    
+        var popup_2b445c45ed534429c733b9cc3dbb136f = L.popup({"maxWidth": 500});
+
+        
+            var html_e9eff2bde16a6cc5d4ff0bc21501dca9 = $(`<div id="html_e9eff2bde16a6cc5d4ff0bc21501dca9" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Hoyle Pond</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Hoyle Pond</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Newmont Corp.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_2b445c45ed534429c733b9cc3dbb136f.setContent(html_e9eff2bde16a6cc5d4ff0bc21501dca9);
+        
+
+        marker_c24a802d402b2e3a027ff65354fc629a.bindPopup(popup_2b445c45ed534429c733b9cc3dbb136f)
+        ;
+
+        
+    
+    
+            var marker_faf1414407236d2231789a5eab40c6bd = L.marker(
+                [48.55298, -81.17761],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_79645440f7ced7bc8c5a5c47e6556b18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_faf1414407236d2231789a5eab40c6bd.setIcon(icon_79645440f7ced7bc8c5a5c47e6556b18);
+        
+    
+        var popup_da435d675525373e7fe61c5b34fb41ea = L.popup({"maxWidth": 500});
+
+        
+            var html_8a6b1b124adba831d6b97c8526a390fa = $(`<div id="html_8a6b1b124adba831d6b97c8526a390fa" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Bell Creek</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Bell Creek</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Pan American Silver Corp.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_da435d675525373e7fe61c5b34fb41ea.setContent(html_8a6b1b124adba831d6b97c8526a390fa);
+        
+
+        marker_faf1414407236d2231789a5eab40c6bd.bindPopup(popup_da435d675525373e7fe61c5b34fb41ea)
+        ;
+
+        
+    
+    
+            var marker_26e9cc03553e13cc9bc5a0894c95263b = L.marker(
+                [46.47383, -81.18568],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_7f327fe4c6761438106f589b928f3c16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_26e9cc03553e13cc9bc5a0894c95263b.setIcon(icon_7f327fe4c6761438106f589b928f3c16);
+        
+    
+        var popup_cd0c4a589d177263f27488a1b476ab09 = L.popup({"maxWidth": 500});
+
+        
+            var html_bcfa6dbe5b303358135acb673251d7b1 = $(`<div id="html_bcfa6dbe5b303358135acb673251d7b1" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Creighton</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Creighton</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Vale Canada Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_cd0c4a589d177263f27488a1b476ab09.setContent(html_bcfa6dbe5b303358135acb673251d7b1);
+        
+
+        marker_26e9cc03553e13cc9bc5a0894c95263b.bindPopup(popup_cd0c4a589d177263f27488a1b476ab09)
+        ;
+
+        
+    
+    
+            var marker_a35b91c8e012de636a3f64a95a49d534 = L.marker(
+                [48.47305, -81.31382],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_3e1a286d9b090c5510764bf318d5d987 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a35b91c8e012de636a3f64a95a49d534.setIcon(icon_3e1a286d9b090c5510764bf318d5d987);
+        
+    
+        var popup_fb18c2e305a24c35611062e230aa4ffd = L.popup({"maxWidth": 500});
+
+        
+            var html_f683d7a5117f3a4dea5f6edc98d5f9d0 = $(`<div id="html_f683d7a5117f3a4dea5f6edc98d5f9d0" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Hollinger</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Hollinger</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Newmont Corp.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_fb18c2e305a24c35611062e230aa4ffd.setContent(html_f683d7a5117f3a4dea5f6edc98d5f9d0);
+        
+
+        marker_a35b91c8e012de636a3f64a95a49d534.bindPopup(popup_fb18c2e305a24c35611062e230aa4ffd)
+        ;
+
+        
+    
+    
+            var marker_2091da611c23dde169d7d08eebcc0eba = L.marker(
+                [46.67696, -81.33944],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_fac2b830f97e0fce749bad97f4b2d246 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2091da611c23dde169d7d08eebcc0eba.setIcon(icon_fac2b830f97e0fce749bad97f4b2d246);
+        
+    
+        var popup_0ac1770af62f19d378616c1e4623f18d = L.popup({"maxWidth": 500});
+
+        
+            var html_8491357a2ee8902680f2c9ef6555e157 = $(`<div id="html_8491357a2ee8902680f2c9ef6555e157" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Coleman</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Coleman</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Vale Canada Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_0ac1770af62f19d378616c1e4623f18d.setContent(html_8491357a2ee8902680f2c9ef6555e157);
+        
+
+        marker_2091da611c23dde169d7d08eebcc0eba.bindPopup(popup_0ac1770af62f19d378616c1e4623f18d)
+        ;
+
+        
+    
+    
+            var marker_8f577c6920305a709d45ceaad5b565da = L.marker(
+                [46.6631, -81.3405],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_b9866787e02cd8d3bd2a2d95ac180be9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8f577c6920305a709d45ceaad5b565da.setIcon(icon_b9866787e02cd8d3bd2a2d95ac180be9);
+        
+    
+        var popup_c429ecb11cbc7fff9c74c016bc6e6cc8 = L.popup({"maxWidth": 500});
+
+        
+            var html_20d664fb451895b257dc9ed85e11045e = $(`<div id="html_20d664fb451895b257dc9ed85e11045e" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Fraser</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Fraser</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Glencore Canada Corporation</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Nickel, copper, platinum group metals, gold, cobalt, silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_c429ecb11cbc7fff9c74c016bc6e6cc8.setContent(html_20d664fb451895b257dc9ed85e11045e);
+        
+
+        marker_8f577c6920305a709d45ceaad5b565da.bindPopup(popup_c429ecb11cbc7fff9c74c016bc6e6cc8)
+        ;
+
+        
+    
+    
+            var marker_6d427aa6c1768e069880d1e0285731ca = L.marker(
+                [46.67334, -81.34269],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_fa3c19b5605e107b44cae8f652f9786b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6d427aa6c1768e069880d1e0285731ca.setIcon(icon_fa3c19b5605e107b44cae8f652f9786b);
+        
+    
+        var popup_2f7b7e8eddacdcde8748d85308068630 = L.popup({"maxWidth": 500});
+
+        
+            var html_6596f2c69751977037671e5d59ee5958 = $(`<div id="html_6596f2c69751977037671e5d59ee5958" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Strathcona</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Strathcona</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Glencore Canada Corporation</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_2f7b7e8eddacdcde8748d85308068630.setContent(html_6596f2c69751977037671e5d59ee5958);
+        
+
+        marker_6d427aa6c1768e069880d1e0285731ca.bindPopup(popup_2f7b7e8eddacdcde8748d85308068630)
+        ;
+
+        
+    
+    
+            var marker_a533bac37b5bf07a3c8d5856c517a7f3 = L.marker(
+                [48.68912, -81.37051],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_ebeb7b85309c470e2d246095ba8a896e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a533bac37b5bf07a3c8d5856c517a7f3.setIcon(icon_ebeb7b85309c470e2d246095ba8a896e);
+        
+    
+        var popup_8117443acc260c0582c5de772633565a = L.popup({"maxWidth": 500});
+
+        
+            var html_6fe097e1c6727c0a73a097abb0307cd3 = $(`<div id="html_6fe097e1c6727c0a73a097abb0307cd3" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Kidd Creek</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Kidd Creek</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Glencore Canada Corporation</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Copper, zinc, silver, selenium, indium</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_8117443acc260c0582c5de772633565a.setContent(html_6fe097e1c6727c0a73a097abb0307cd3);
+        
+
+        marker_a533bac37b5bf07a3c8d5856c517a7f3.bindPopup(popup_8117443acc260c0582c5de772633565a)
+        ;
+
+        
+    
+    
+            var marker_84c5a28ca77e2bd351f65d4f6f996cab = L.marker(
+                [46.63785, -81.39906],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_aa4d4e7021fa6088aa7a853a7790bf80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_84c5a28ca77e2bd351f65d4f6f996cab.setIcon(icon_aa4d4e7021fa6088aa7a853a7790bf80);
+        
+    
+        var popup_430a50d1759c2e875a982a815c9fa918 = L.popup({"maxWidth": 500});
+
+        
+            var html_84400f4736de781f7a856ef7c454f649 = $(`<div id="html_84400f4736de781f7a856ef7c454f649" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">McCreedy West</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">McCreedy West</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">KGHM Polska Miedz S.A.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals and precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Copper, nickel, platinum group metals, gold, silver,  cobalt</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_430a50d1759c2e875a982a815c9fa918.setContent(html_84400f4736de781f7a856ef7c454f649);
+        
+
+        marker_84c5a28ca77e2bd351f65d4f6f996cab.bindPopup(popup_430a50d1759c2e875a982a815c9fa918)
+        ;
+
+        
+    
+    
+            var marker_a91643f97375ec9af1e330d0cccb7825 = L.marker(
+                [46.37138, -81.45448],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_59ec42787d20228b6bac296b5ab9de54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a91643f97375ec9af1e330d0cccb7825.setIcon(icon_59ec42787d20228b6bac296b5ab9de54);
+        
+    
+        var popup_34629cdfde702c03b3d21c98d328508a = L.popup({"maxWidth": 500});
+
+        
+            var html_94af88501baa551bcd7665d83cdba25f = $(`<div id="html_94af88501baa551bcd7665d83cdba25f" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Totten</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Totten</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Vale Canada Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Nickel, copper, platinum group metals, gold, silver, cobalt</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_34629cdfde702c03b3d21c98d328508a.setContent(html_94af88501baa551bcd7665d83cdba25f);
+        
+
+        marker_a91643f97375ec9af1e330d0cccb7825.bindPopup(popup_34629cdfde702c03b3d21c98d328508a)
+        ;
+
+        
+    
+    
+            var marker_57d385ab516d1b0cfbc472a5eb31a458 = L.marker(
+                [48.38341, -81.54983],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_1c360771cce57a3fa57cb06e5eab59e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_57d385ab516d1b0cfbc472a5eb31a458.setIcon(icon_1c360771cce57a3fa57cb06e5eab59e5);
+        
+    
+        var popup_f05e3cb0ab3e6ed358f11a1f6014c2f0 = L.popup({"maxWidth": 500});
+
+        
+            var html_3e75ccb6dfd03aa8e493864d9f9121e6 = $(`<div id="html_3e75ccb6dfd03aa8e493864d9f9121e6" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Timmins West</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Timmins West</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Pan American Silver Corp.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_f05e3cb0ab3e6ed358f11a1f6014c2f0.setContent(html_3e75ccb6dfd03aa8e493864d9f9121e6);
+        
+
+        marker_57d385ab516d1b0cfbc472a5eb31a458.bindPopup(popup_f05e3cb0ab3e6ed358f11a1f6014c2f0)
+        ;
+
+        
+    
+    
+            var marker_f0c0b5c23133017d42ef70e54fe03113 = L.marker(
+                [47.87188, -83.26085],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_2d901006ce52713c035dce928ea4ee77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f0c0b5c23133017d42ef70e54fe03113.setIcon(icon_2d901006ce52713c035dce928ea4ee77);
+        
+    
+        var popup_387dd18f675ee7e73992ba401e1d071f = L.popup({"maxWidth": 500});
+
+        
+            var html_579415f84ad6f4123e69853adf59778a = $(`<div id="html_579415f84ad6f4123e69853adf59778a" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Borden</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Borden</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Newmont Corp.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_387dd18f675ee7e73992ba401e1d071f.setContent(html_579415f84ad6f4123e69853adf59778a);
+        
+
+        marker_f0c0b5c23133017d42ef70e54fe03113.bindPopup(popup_387dd18f675ee7e73992ba401e1d071f)
+        ;
+
+        
+    
+    
+            var marker_3a9707110da376456c2fd8705f0f1de3 = L.marker(
+                [48.28561, -84.45003],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_e17d12741cc03f0085ac5fb92960eec2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3a9707110da376456c2fd8705f0f1de3.setIcon(icon_e17d12741cc03f0085ac5fb92960eec2);
+        
+    
+        var popup_f2f0cb945f7bc39184422584811dcf1d = L.popup({"maxWidth": 500});
+
+        
+            var html_590ee9287079e468ff428a6d97558285 = $(`<div id="html_590ee9287079e468ff428a6d97558285" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Island Lake</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Island Lake</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Alamos Gold Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_f2f0cb945f7bc39184422584811dcf1d.setContent(html_590ee9287079e468ff428a6d97558285);
+        
+
+        marker_3a9707110da376456c2fd8705f0f1de3.bindPopup(popup_f2f0cb945f7bc39184422584811dcf1d)
+        ;
+
+        
+    
+    
+            var marker_1d24eaf73970644b8efc8cc5d9f80460 = L.marker(
+                [48.80492, -85.00352],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_83b6560a450cbcd1dd0c0daa1f13fddf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1d24eaf73970644b8efc8cc5d9f80460.setIcon(icon_83b6560a450cbcd1dd0c0daa1f13fddf);
+        
+    
+        var popup_15d38593897c9e23a5de068a56ee6de4 = L.popup({"maxWidth": 500});
+
+        
+            var html_c3a8456f88f3e175c5bf7160f1b6fc12 = $(`<div id="html_c3a8456f88f3e175c5bf7160f1b6fc12" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Sugar Zone</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Sugar Zone</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Harte Gold Corp.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_15d38593897c9e23a5de068a56ee6de4.setContent(html_c3a8456f88f3e175c5bf7160f1b6fc12);
+        
+
+        marker_1d24eaf73970644b8efc8cc5d9f80460.bindPopup(popup_15d38593897c9e23a5de068a56ee6de4)
+        ;
+
+        
+    
+    
+            var marker_c165c2e1f7532673de175d42117aed54 = L.marker(
+                [48.11057, -85.45284],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_1bdec3bdee59bef088c535c547b38a30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c165c2e1f7532673de175d42117aed54.setIcon(icon_1bdec3bdee59bef088c535c547b38a30);
+        
+    
+        var popup_d386ac628d207dae030469ad8a5cb77a = L.popup({"maxWidth": 500});
+
+        
+            var html_62101401bde69afbb0d5b6a861b11278 = $(`<div id="html_62101401bde69afbb0d5b6a861b11278" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Mishi</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Mishi</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Wesdome Gold Mines Ltd.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_d386ac628d207dae030469ad8a5cb77a.setContent(html_62101401bde69afbb0d5b6a861b11278);
+        
+
+        marker_c165c2e1f7532673de175d42117aed54.bindPopup(popup_d386ac628d207dae030469ad8a5cb77a)
+        ;
+
+        
+    
+    
+            var marker_65a44b8f185c553a76a4354236a47f29 = L.marker(
+                [47.98624, -85.4621],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_13d4ffe3a0254e123ca73ac57ddcfb24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_65a44b8f185c553a76a4354236a47f29.setIcon(icon_13d4ffe3a0254e123ca73ac57ddcfb24);
+        
+    
+        var popup_973f697814a53f86eefc83e76a7f2474 = L.popup({"maxWidth": 500});
+
+        
+            var html_36d5425395b8af5c48346c76bebd10d7 = $(`<div id="html_36d5425395b8af5c48346c76bebd10d7" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Eagle River</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Eagle River</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Wesdome Gold Mines Ltd.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_973f697814a53f86eefc83e76a7f2474.setContent(html_36d5425395b8af5c48346c76bebd10d7);
+        
+
+        marker_65a44b8f185c553a76a4354236a47f29.bindPopup(popup_973f697814a53f86eefc83e76a7f2474)
+        ;
+
+        
+    
+    
+            var marker_780becaee29baf73f7e97d2758fbcb88 = L.marker(
+                [48.69517, -85.91633],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_6d3e75f2bc04b0bfcc33c7f743db7dc0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_780becaee29baf73f7e97d2758fbcb88.setIcon(icon_6d3e75f2bc04b0bfcc33c7f743db7dc0);
+        
+    
+        var popup_75e97ef5d251bd243f32bfdda1555634 = L.popup({"maxWidth": 500});
+
+        
+            var html_a22ae906f90abcf00a1fa2e5cc6cf4d4 = $(`<div id="html_a22ae906f90abcf00a1fa2e5cc6cf4d4" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Hemlo (Williams)</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Hemlo (Williams)</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Barrick Gold Corporation</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_75e97ef5d251bd243f32bfdda1555634.setContent(html_a22ae906f90abcf00a1fa2e5cc6cf4d4);
+        
+
+        marker_780becaee29baf73f7e97d2758fbcb88.bindPopup(popup_75e97ef5d251bd243f32bfdda1555634)
+        ;
+
+        
+    
+    
+            var marker_9f894bdbc2cdefbbbca45a43462da274 = L.marker(
+                [49.16876, -89.6106],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_91952967f685fb2398316690eb0b7f3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9f894bdbc2cdefbbbca45a43462da274.setIcon(icon_91952967f685fb2398316690eb0b7f3b);
+        
+    
+        var popup_bc611c535dca026e4a151ccfc7c3c43f = L.popup({"maxWidth": 500});
+
+        
+            var html_9b2bb820da4582589d013a9b54c7e2da = $(`<div id="html_9b2bb820da4582589d013a9b54c7e2da" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Lac des Iles</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Lac des Iles</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Impala Canada Ltd.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Platinum group metals, gold, nickel, copper, cobalt</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_bc611c535dca026e4a151ccfc7c3c43f.setContent(html_9b2bb820da4582589d013a9b54c7e2da);
+        
+
+        marker_9f894bdbc2cdefbbbca45a43462da274.bindPopup(popup_bc611c535dca026e4a151ccfc7c3c43f)
+        ;
+
+        
+    
+    
+            var marker_0dd826bb191807f555a30a91d69e1d92 = L.marker(
+                [52.61249, -90.36388],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_44b926d0ad40c393d1cd5f81cd7fbdbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0dd826bb191807f555a30a91d69e1d92.setIcon(icon_44b926d0ad40c393d1cd5f81cd7fbdbd);
+        
+    
+        var popup_7246b631d6eaa7ab3f990df050337fbc = L.popup({"maxWidth": 500});
+
+        
+            var html_8b546296dec5f1bbb0f955c8ec5cf945 = $(`<div id="html_8b546296dec5f1bbb0f955c8ec5cf945" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Musselwhite</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Musselwhite</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Newmont Corp.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, Silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_7246b631d6eaa7ab3f990df050337fbc.setContent(html_8b546296dec5f1bbb0f955c8ec5cf945);
+        
+
+        marker_0dd826bb191807f555a30a91d69e1d92.bindPopup(popup_7246b631d6eaa7ab3f990df050337fbc)
+        ;
+
+        
+    
+    
+            var marker_d06b179e84bab1cf7f6ec00d11a35fdc = L.marker(
+                [51.05069, -93.73259],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_aa72b78849bf6b24e8f7683914a73ece = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d06b179e84bab1cf7f6ec00d11a35fdc.setIcon(icon_aa72b78849bf6b24e8f7683914a73ece);
+        
+    
+        var popup_628df998cad56eaa23605e44ae0368b4 = L.popup({"maxWidth": 500});
+
+        
+            var html_b072410aff789c2b9d69f12e582a0fed = $(`<div id="html_b072410aff789c2b9d69f12e582a0fed" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Red Lake (Cochenour)</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Red Lake (Cochenour)</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Evolution Mining Ltd.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, Silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_628df998cad56eaa23605e44ae0368b4.setContent(html_b072410aff789c2b9d69f12e582a0fed);
+        
+
+        marker_d06b179e84bab1cf7f6ec00d11a35fdc.bindPopup(popup_628df998cad56eaa23605e44ae0368b4)
+        ;
+
+        
+    
+    
+            var marker_7a8618b2c13bbb5cc67c705cec99cf86 = L.marker(
+                [50.96884, -93.93837],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_7bcfa13ed8014ab411447d565a8f7635 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7a8618b2c13bbb5cc67c705cec99cf86.setIcon(icon_7bcfa13ed8014ab411447d565a8f7635);
+        
+    
+        var popup_79f41bafa96de20eb929d1f96076f620 = L.popup({"maxWidth": 500});
+
+        
+            var html_6a671726a06787442f62a8d9195f56ee = $(`<div id="html_6a671726a06787442f62a8d9195f56ee" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">PureGold</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">PureGold</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Pure Gold Mining Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_79f41bafa96de20eb929d1f96076f620.setContent(html_6a671726a06787442f62a8d9195f56ee);
+        
+
+        marker_7a8618b2c13bbb5cc67c705cec99cf86.bindPopup(popup_79f41bafa96de20eb929d1f96076f620)
+        ;
+
+        
+    
+    
+            var marker_1963b15b09847b513de07885411e4408 = L.marker(
+                [48.83278, -94.01224],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_962f9ced7c84f1db81a5d64bcd9ccbca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1963b15b09847b513de07885411e4408.setIcon(icon_962f9ced7c84f1db81a5d64bcd9ccbca);
+        
+    
+        var popup_4e85995bddf176d7a3fab99b777797f2 = L.popup({"maxWidth": 500});
+
+        
+            var html_9a626d3b98065c6519a39271ccb67a9c = $(`<div id="html_9a626d3b98065c6519a39271ccb67a9c" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Rainy River</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Rainy River</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">New Gold Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, Silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_4e85995bddf176d7a3fab99b777797f2.setContent(html_9a626d3b98065c6519a39271ccb67a9c);
+        
+
+        marker_1963b15b09847b513de07885411e4408.bindPopup(popup_4e85995bddf176d7a3fab99b777797f2)
+        ;
+
+        
+    
+    
+            var marker_72edce5639fbbbecac481d397620e43b = L.marker(
+                [50.42864, -95.45006],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_9e302c3bac5e04dfcf64d10190c97d44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_72edce5639fbbbecac481d397620e43b.setIcon(icon_9e302c3bac5e04dfcf64d10190c97d44);
+        
+    
+        var popup_1f03b9635c5ff9bbe871b15a5a80a399 = L.popup({"maxWidth": 500});
+
+        
+            var html_66aac753c549c70ce15173c3079ec064 = $(`<div id="html_66aac753c549c70ce15173c3079ec064" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Tanco</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Tanco</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Sinomine Resource Grp Co. Ltd.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Cesium, lithium</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_1f03b9635c5ff9bbe871b15a5a80a399.setContent(html_66aac753c549c70ce15173c3079ec064);
+        
+
+        marker_72edce5639fbbbecac481d397620e43b.bindPopup(popup_1f03b9635c5ff9bbe871b15a5a80a399)
+        ;
+
+        
+    
+    
+            var marker_8603438285e177abccf6c688fe38f48d = L.marker(
+                [55.71509, -97.84467],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_2dfafe4a86f6f94fad847234e10581e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8603438285e177abccf6c688fe38f48d.setIcon(icon_2dfafe4a86f6f94fad847234e10581e3);
+        
+    
+        var popup_edc98ababd0c2edd490987e3c699336e = L.popup({"maxWidth": 500});
+
+        
+            var html_112086c59454c4a5848077b95f46c57e = $(`<div id="html_112086c59454c4a5848077b95f46c57e" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Thompson (T-1 and T-3)</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Thompson (T-1 and T-3)</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Vale Canada Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Nickel, cobalt, copper, platinum group metals, gold, silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_edc98ababd0c2edd490987e3c699336e.setContent(html_112086c59454c4a5848077b95f46c57e);
+        
+
+        marker_8603438285e177abccf6c688fe38f48d.bindPopup(popup_edc98ababd0c2edd490987e3c699336e)
+        ;
+
+        
+    
+    
+            var marker_ad48e28692c02c99bb380c6eacbf9788 = L.marker(
+                [54.88599, -100.02422],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_2d9881f821e84320ba2c96eed6e5a6f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ad48e28692c02c99bb380c6eacbf9788.setIcon(icon_2d9881f821e84320ba2c96eed6e5a6f6);
+        
+    
+        var popup_c1090a53dc35d270f3d4e8926c543750 = L.popup({"maxWidth": 500});
+
+        
+            var html_5f00377e9e402e6b1f05b4fa99cb3e68 = $(`<div id="html_5f00377e9e402e6b1f05b4fa99cb3e68" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">New Britannia</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">New Britannia</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">HudBay Minerals Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals and precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, copper</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_c1090a53dc35d270f3d4e8926c543750.setContent(html_5f00377e9e402e6b1f05b4fa99cb3e68);
+        
+
+        marker_ad48e28692c02c99bb380c6eacbf9788.bindPopup(popup_c1090a53dc35d270f3d4e8926c543750)
+        ;
+
+        
+    
+    
+            var marker_aa3a62eddfbefa184dd3b710e67786d0 = L.marker(
+                [54.86638, -100.13337],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_613f9a78642262c69fe3b6246e396824 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_aa3a62eddfbefa184dd3b710e67786d0.setIcon(icon_613f9a78642262c69fe3b6246e396824);
+        
+    
+        var popup_04c4e09f7bea6e67b4f1e1b0bb91aac9 = L.popup({"maxWidth": 500});
+
+        
+            var html_9b29a6cbd9e9580d0e6b0a090ec6f7c0 = $(`<div id="html_9b29a6cbd9e9580d0e6b0a090ec6f7c0" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Lalor Lake</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Lalor Lake</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">HudBay Minerals Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals and precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, zinc, copper, silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_04c4e09f7bea6e67b4f1e1b0bb91aac9.setContent(html_9b29a6cbd9e9580d0e6b0a090ec6f7c0);
+        
+
+        marker_aa3a62eddfbefa184dd3b710e67786d0.bindPopup(popup_04c4e09f7bea6e67b4f1e1b0bb91aac9)
+        ;
+
+        
+    
+    
+            var marker_3281d900b1c303e9bbb2b9c153e5f353 = L.marker(
+                [55.66784, -103.41391],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_66c218b8de6dcdac096f92eaacd6431e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3281d900b1c303e9bbb2b9c153e5f353.setIcon(icon_66c218b8de6dcdac096f92eaacd6431e);
+        
+    
+        var popup_4a895feec3c85b4b0d8080aaef220a37 = L.popup({"maxWidth": 500});
+
+        
+            var html_8feddefece09d8ab17352d260b88134c = $(`<div id="html_8feddefece09d8ab17352d260b88134c" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">777</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">777</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">HudBay Minerals Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Copper, zinc, gold, silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_4a895feec3c85b4b0d8080aaef220a37.setContent(html_8feddefece09d8ab17352d260b88134c);
+        
+
+        marker_3281d900b1c303e9bbb2b9c153e5f353.bindPopup(popup_4a895feec3c85b4b0d8080aaef220a37)
+        ;
+
+        
+    
+    
+            var marker_86092ac173493c352662763504c6e344 = L.marker(
+                [55.68374, -103.62162],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_a3356d00e3a90099067095110d672880 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_86092ac173493c352662763504c6e344.setIcon(icon_a3356d00e3a90099067095110d672880);
+        
+    
+        var popup_b5eb32959fa7e604b3434524849617e8 = L.popup({"maxWidth": 500});
+
+        
+            var html_62ec80b30d5998e178c3f63ed5902205 = $(`<div id="html_62ec80b30d5998e178c3f63ed5902205" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Santoy</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Santoy</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">SSR Mining Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_b5eb32959fa7e604b3434524849617e8.setContent(html_62ec80b30d5998e178c3f63ed5902205);
+        
+
+        marker_86092ac173493c352662763504c6e344.bindPopup(popup_b5eb32959fa7e604b3434524849617e8)
+        ;
+
+        
+    
+    
+            var marker_e281315927ab2d4840884b064c37bf1c = L.marker(
+                [58.34719, -103.8364],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_af7643e017768a832ec4b61a3bcc3982 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e281315927ab2d4840884b064c37bf1c.setIcon(icon_af7643e017768a832ec4b61a3bcc3982);
+        
+    
+        var popup_24cef6df04c10daf3e2b3d25b2730c3a = L.popup({"maxWidth": 500});
+
+        
+            var html_5bf85e48bd063667b325fcc2fb202f2b = $(`<div id="html_5bf85e48bd063667b325fcc2fb202f2b" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Seabee</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Seabee</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">SSR Mining Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_24cef6df04c10daf3e2b3d25b2730c3a.setContent(html_5bf85e48bd063667b325fcc2fb202f2b);
+        
+
+        marker_e281315927ab2d4840884b064c37bf1c.bindPopup(popup_24cef6df04c10daf3e2b3d25b2730c3a)
+        ;
+
+        
+    
+    
+            var marker_496ef4371f428b0117631510ccb55fb9 = L.marker(
+                [58.34745, -103.83623],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_8c13fb6369f3e8445c4b8fc786b8af8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_496ef4371f428b0117631510ccb55fb9.setIcon(icon_8c13fb6369f3e8445c4b8fc786b8af8e);
+        
+    
+        var popup_3f7a91eddd22506def36155d41cc0f7c = L.popup({"maxWidth": 500});
+
+        
+            var html_130905d49a9b3fcdb91e8ea36a7102fc = $(`<div id="html_130905d49a9b3fcdb91e8ea36a7102fc" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">McClean Lake</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">McClean Lake</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Orano Canada Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Uranium</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Uranium</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_3f7a91eddd22506def36155d41cc0f7c.setContent(html_130905d49a9b3fcdb91e8ea36a7102fc);
+        
+
+        marker_496ef4371f428b0117631510ccb55fb9.bindPopup(popup_3f7a91eddd22506def36155d41cc0f7c)
+        ;
+
+        
+    
+    
+            var marker_8806b08b4f783ad6f58822e4304e12b5 = L.marker(
+                [58.06806, -104.54149],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_13f0f126c2472377b0d52f2107d69369 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8806b08b4f783ad6f58822e4304e12b5.setIcon(icon_13f0f126c2472377b0d52f2107d69369);
+        
+    
+        var popup_f947a37ec2896194210fa7ebc768c2df = L.popup({"maxWidth": 500});
+
+        
+            var html_38236daa9030ce3bc6120dceb5a403bb = $(`<div id="html_38236daa9030ce3bc6120dceb5a403bb" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Cigar Lake</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Cigar Lake</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Cameco Corporation</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Uranium</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Uranium</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_f947a37ec2896194210fa7ebc768c2df.setContent(html_38236daa9030ce3bc6120dceb5a403bb);
+        
+
+        marker_8806b08b4f783ad6f58822e4304e12b5.bindPopup(popup_f947a37ec2896194210fa7ebc768c2df)
+        ;
+
+        
+    
+    
+            var marker_fa02649b2ff76da86d27181e46f6b3a3 = L.marker(
+                [50.66086, -120.51314],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_4944025746f61d0c9f80e0dc002b932c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fa02649b2ff76da86d27181e46f6b3a3.setIcon(icon_4944025746f61d0c9f80e0dc002b932c);
+        
+    
+        var popup_b1e9a7b0232c568c4d7f80cede586086 = L.popup({"maxWidth": 500});
+
+        
+            var html_e97afc68958b434dafced24e2e90c325 = $(`<div id="html_e97afc68958b434dafced24e2e90c325" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">New Afton</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">New Afton</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">New Gold Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals and precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, copper, silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_b1e9a7b0232c568c4d7f80cede586086.setContent(html_e97afc68958b434dafced24e2e90c325);
+        
+
+        marker_fa02649b2ff76da86d27181e46f6b3a3.bindPopup(popup_b1e9a7b0232c568c4d7f80cede586086)
+        ;
+
+        
+    
+    
+            var marker_727babb8a586d50fd49bba62cdd87c48 = L.marker(
+                [49.33114, -120.53255],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_7c2dfe80a7cfba2eaece064b9af75547 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_727babb8a586d50fd49bba62cdd87c48.setIcon(icon_7c2dfe80a7cfba2eaece064b9af75547);
+        
+    
+        var popup_5655ac8a385acece3b5b788c6727654d = L.popup({"maxWidth": 500});
+
+        
+            var html_b4ea65d39769cdfc0250eb03dd15779b = $(`<div id="html_b4ea65d39769cdfc0250eb03dd15779b" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Copper Mountain</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Copper Mountain</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Copper Mountain Mining Corporation</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Copper, gold, silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_5655ac8a385acece3b5b788c6727654d.setContent(html_b4ea65d39769cdfc0250eb03dd15779b);
+        
+
+        marker_727babb8a586d50fd49bba62cdd87c48.bindPopup(popup_5655ac8a385acece3b5b788c6727654d)
+        ;
+
+        
+    
+    
+            var marker_694c1352135eaa9edc1917fb51bc8c09 = L.marker(
+                [50.48516, -121.04772],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_fed4e429478be954493f0d37f511663a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_694c1352135eaa9edc1917fb51bc8c09.setIcon(icon_fed4e429478be954493f0d37f511663a);
+        
+    
+        var popup_36fa08a071f39f2c64d4e3c125e18d03 = L.popup({"maxWidth": 500});
+
+        
+            var html_e9871fe1e7604f51132f408d5897f7e9 = $(`<div id="html_e9871fe1e7604f51132f408d5897f7e9" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Highland Valley</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Highland Valley</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Teck Resources Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Copper, silver, molybdenum</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_36fa08a071f39f2c64d4e3c125e18d03.setContent(html_e9871fe1e7604f51132f408d5897f7e9);
+        
+
+        marker_694c1352135eaa9edc1917fb51bc8c09.bindPopup(popup_36fa08a071f39f2c64d4e3c125e18d03)
+        ;
+
+        
+    
+    
+            var marker_53802f5f72914a8c9202fe5ec15f573f = L.marker(
+                [52.52829, -122.2875],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_34866cbb3ca8e80173dfbd94db072ba3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_53802f5f72914a8c9202fe5ec15f573f.setIcon(icon_34866cbb3ca8e80173dfbd94db072ba3);
+        
+    
+        var popup_10167388c153cc33618b3c9b80395415 = L.popup({"maxWidth": 500});
+
+        
+            var html_09b9c47f56dceabebe956eebd96c31ab = $(`<div id="html_09b9c47f56dceabebe956eebd96c31ab" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Gibraltar</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Gibraltar</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Taseko Mines Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Copper, molybdenum, silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_10167388c153cc33618b3c9b80395415.setContent(html_09b9c47f56dceabebe956eebd96c31ab);
+        
+
+        marker_53802f5f72914a8c9202fe5ec15f573f.bindPopup(popup_10167388c153cc33618b3c9b80395415)
+        ;
+
+        
+    
+    
+            var marker_f11d147c067955dc71fe969de766667e = L.marker(
+                [55.11794, -124.03078],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_3707b55725f9e9fb6920165e791119e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f11d147c067955dc71fe969de766667e.setIcon(icon_3707b55725f9e9fb6920165e791119e0);
+        
+    
+        var popup_456d9f7928588b14a82cf0569927c1b8 = L.popup({"maxWidth": 500});
+
+        
+            var html_ec4edf2e428fb56d267c05bf5e796287 = $(`<div id="html_ec4edf2e428fb56d267c05bf5e796287" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Mount Milligan</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Mount Milligan</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Centerra Gold Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals and precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Copper, gold, silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_456d9f7928588b14a82cf0569927c1b8.setContent(html_ec4edf2e428fb56d267c05bf5e796287);
+        
+
+        marker_f11d147c067955dc71fe969de766667e.bindPopup(popup_456d9f7928588b14a82cf0569927c1b8)
+        ;
+
+        
+    
+    
+            var marker_e297b99569c07b5a940ec77164156ee7 = L.marker(
+                [49.56979, -125.58948],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_1f2886cfd665cfb439fdb11e157249a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e297b99569c07b5a940ec77164156ee7.setIcon(icon_1f2886cfd665cfb439fdb11e157249a1);
+        
+    
+        var popup_1c65f43b7208de3833177eb9ddab47a3 = L.popup({"maxWidth": 500});
+
+        
+            var html_10983ec42132270908a6b31312f7db79 = $(`<div id="html_10983ec42132270908a6b31312f7db79" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Myra Falls</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Myra Falls</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Trafigura Mining Group</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals and precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Zinc, copper, silver, gold, lead </td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_1c65f43b7208de3833177eb9ddab47a3.setContent(html_10983ec42132270908a6b31312f7db79);
+        
+
+        marker_e297b99569c07b5a940ec77164156ee7.bindPopup(popup_1c65f43b7208de3833177eb9ddab47a3)
+        ;
+
+        
+    
+    
+            var marker_c5e6f16e2b4e38de1fef42f0d28b77a9 = L.marker(
+                [57.69985, -129.78297],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_f7cb939e96b7720b74e7fb762391ebce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c5e6f16e2b4e38de1fef42f0d28b77a9.setIcon(icon_f7cb939e96b7720b74e7fb762391ebce);
+        
+    
+        var popup_ea7fb7da139a7e5e2b9732e1813c6e7d = L.popup({"maxWidth": 500});
+
+        
+            var html_0e3964f2144086548cbce32c1b795a9b = $(`<div id="html_0e3964f2144086548cbce32c1b795a9b" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Red Chris</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Red Chris</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Newcrest Mining Ltd.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, copper, silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_ea7fb7da139a7e5e2b9732e1813c6e7d.setContent(html_0e3964f2144086548cbce32c1b795a9b);
+        
+
+        marker_c5e6f16e2b4e38de1fef42f0d28b77a9.bindPopup(popup_ea7fb7da139a7e5e2b9732e1813c6e7d)
+        ;
+
+        
+    
+    
+            var marker_599fee232abf765c59339b074a720444 = L.marker(
+                [56.47542, -130.21699],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_64b8bf67684215f692dabd3b32ff29b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_599fee232abf765c59339b074a720444.setIcon(icon_64b8bf67684215f692dabd3b32ff29b6);
+        
+    
+        var popup_a8929c10075536388a2d46f9861e2f30 = L.popup({"maxWidth": 500});
+
+        
+            var html_630fd4fba2896dfddf83747e08400f38 = $(`<div id="html_630fd4fba2896dfddf83747e08400f38" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Brucejack</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Brucejack</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Pretium Resources Inc.</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold, Silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_a8929c10075536388a2d46f9861e2f30.setContent(html_630fd4fba2896dfddf83747e08400f38);
+        
+
+        marker_599fee232abf765c59339b074a720444.bindPopup(popup_a8929c10075536388a2d46f9861e2f30)
+        ;
+
+        
+    
+    
+            var marker_0a035774f87dfc2d83bae4c7855290f2 = L.marker(
+                [64.03224, -135.84507],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_1a760c2c15f1fd62c03fff2eff01aa02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0a035774f87dfc2d83bae4c7855290f2.setIcon(icon_1a760c2c15f1fd62c03fff2eff01aa02);
+        
+    
+        var popup_d8c45f827dc61d5e155ab7f3a8d0aaee = L.popup({"maxWidth": 500});
+
+        
+            var html_0377d3e79ac3ba0942b887f40e4c0c20 = $(`<div id="html_0377d3e79ac3ba0942b887f40e4c0c20" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Eagle (Dublin Gulch)</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Eagle (Dublin Gulch)</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Victoria Gold Corporation</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_d8c45f827dc61d5e155ab7f3a8d0aaee.setContent(html_0377d3e79ac3ba0942b887f40e4c0c20);
+        
+
+        marker_0a035774f87dfc2d83bae4c7855290f2.bindPopup(popup_d8c45f827dc61d5e155ab7f3a8d0aaee)
+        ;
+
+        
+    
+    
+            var marker_2e9a278f44fcf4e53c75ebfc57776e18 = L.marker(
+                [62.60935, -137.15686],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_3932877f577a6c1bc266b1b50b7fdb67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2e9a278f44fcf4e53c75ebfc57776e18.setIcon(icon_3932877f577a6c1bc266b1b50b7fdb67);
+        
+    
+        var popup_ae4729f2bad0f2de9ac4e9b51ef0f488 = L.popup({"maxWidth": 500});
+
+        
+            var html_92e2f712833f870895d37ddae7508c6d = $(`<div id="html_92e2f712833f870895d37ddae7508c6d" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Minto</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Minto</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Minto Metals Corporation</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Base metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Copper, gold, silver</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_ae4729f2bad0f2de9ac4e9b51ef0f488.setContent(html_92e2f712833f870895d37ddae7508c6d);
+        
+
+        marker_2e9a278f44fcf4e53c75ebfc57776e18.bindPopup(popup_ae4729f2bad0f2de9ac4e9b51ef0f488)
+        ;
+
+        
+    
+    
+            var marker_2a323f68cbce505b3c046a640f2ce018 = L.marker(
+                [71.33973, -78.55717],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_201a23630132a5a4fc1d870898616fa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2a323f68cbce505b3c046a640f2ce018.setIcon(icon_201a23630132a5a4fc1d870898616fa4);
+        
+    
+        var popup_96c254da8eb6bd59cc322185ac50157f = L.popup({"maxWidth": 500});
+
+        
+            var html_d3947966e747000b0ae67c4e59743356 = $(`<div id="html_d3947966e747000b0ae67c4e59743356" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Mary River</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Mary River</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Baffinland Iron Mines Corporation</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Iron ore</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_96c254da8eb6bd59cc322185ac50157f.setContent(html_d3947966e747000b0ae67c4e59743356);
+        
+
+        marker_2a323f68cbce505b3c046a640f2ce018.bindPopup(popup_96c254da8eb6bd59cc322185ac50157f)
+        ;
+
+        
+    
+    
+            var marker_04f02184fb2b4a03db73e56ddbafa910 = L.marker(
+                [63.03104, -92.21952],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_8d3c154e5bd57b96b40d06b3c343f455 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_04f02184fb2b4a03db73e56ddbafa910.setIcon(icon_8d3c154e5bd57b96b40d06b3c343f455);
+        
+    
+        var popup_9dbbafdcaa13f935d5de742113bd44ed = L.popup({"maxWidth": 500});
+
+        
+            var html_1ae021e4f42918f4804ac423336d09ea = $(`<div id="html_1ae021e4f42918f4804ac423336d09ea" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Meliadine</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Meliadine</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Agnico Eagle Mines Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_9dbbafdcaa13f935d5de742113bd44ed.setContent(html_1ae021e4f42918f4804ac423336d09ea);
+        
+
+        marker_04f02184fb2b4a03db73e56ddbafa910.bindPopup(popup_9dbbafdcaa13f935d5de742113bd44ed)
+        ;
+
+        
+    
+    
+            var marker_7d577da6bee814aa1479f63262829718 = L.marker(
+                [65.02002, -96.07053],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_d23334a4b2cf17cbc085d63aaf9f4db7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7d577da6bee814aa1479f63262829718.setIcon(icon_d23334a4b2cf17cbc085d63aaf9f4db7);
+        
+    
+        var popup_e995b3a93ebb3595b3ec43695a50eb8b = L.popup({"maxWidth": 500});
+
+        
+            var html_02c02fd17bae17bbc880e5c569bad13b = $(`<div id="html_02c02fd17bae17bbc880e5c569bad13b" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Meadowbank</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Meadowbank</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Agnico Eagle Mines Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_e995b3a93ebb3595b3ec43695a50eb8b.setContent(html_02c02fd17bae17bbc880e5c569bad13b);
+        
+
+        marker_7d577da6bee814aa1479f63262829718.bindPopup(popup_e995b3a93ebb3595b3ec43695a50eb8b)
+        ;
+
+        
+    
+    
+            var marker_52a7cad71766084a6338c57b064c789e = L.marker(
+                [65.41465, -96.69677],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_5675fc5aac9490bdf3ef7902e20638c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_52a7cad71766084a6338c57b064c789e.setIcon(icon_5675fc5aac9490bdf3ef7902e20638c7);
+        
+    
+        var popup_e2c69250b37524080775734d44c5ecdd = L.popup({"maxWidth": 500});
+
+        
+            var html_8fc4cd721cce6bbf86d9ec703136e019 = $(`<div id="html_8fc4cd721cce6bbf86d9ec703136e019" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Amaruq</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Amaruq</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Agnico Eagle Mines Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_e2c69250b37524080775734d44c5ecdd.setContent(html_8fc4cd721cce6bbf86d9ec703136e019);
+        
+
+        marker_52a7cad71766084a6338c57b064c789e.bindPopup(popup_e2c69250b37524080775734d44c5ecdd)
+        ;
+
+        
+    
+    
+            var marker_e7cab4105001a3cd099166dcee226aaf = L.marker(
+                [68.13722, -106.61243],
+                {}
+            ).addTo(map_82cab9371d690c3f1b7f04cf5dec219b);
+        
+    
+            var icon_bfd9e58099bae50fdea7761e221e8cd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e7cab4105001a3cd099166dcee226aaf.setIcon(icon_bfd9e58099bae50fdea7761e221e8cd4);
+        
+    
+        var popup_73bd182830f24ac8af99f2829c3986dc = L.popup({"maxWidth": 500});
+
+        
+            var html_e4ec30f0901204fa10c6f82e3a065a1d = $(`<div id="html_e4ec30f0901204fa10c6f82e3a065a1d" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html> <html> <head> <h4 style="margin-bottom:10"; width="200px">Hope Bay</h4> </head>     <table style="height: 126px; width: 350px;"> <tbody> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Operation</span></td> <td style="width: 150px;background-color: #A7E21D;">Hope Bay</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Owner/Operator</span></td> <td style="width: 150px;background-color: #A7E21D;">Agnico Eagle Mines Limited</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Category</span></td> <td style="width: 150px;background-color: #A7E21D;">Precious metals</td> </tr> <tr> <td style="background-color: #581DE2;"><span style="color: #ffffff;">Commodity</span></td> <td style="width: 150px;background-color: #A7E21D;">Gold</td> </tr> </tbody> </table> </html> </div>`)[0];
+            popup_73bd182830f24ac8af99f2829c3986dc.setContent(html_e4ec30f0901204fa10c6f82e3a065a1d);
+        
+
+        marker_e7cab4105001a3cd099166dcee226aaf.bindPopup(popup_73bd182830f24ac8af99f2829c3986dc)
+        ;
+
+        
+    
+</script>
