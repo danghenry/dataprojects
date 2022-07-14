@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-<iframe src="https://github.com/danghenry/dataprojects/blob/bef7ae62c2890b01e8d398c838f93545937191c3/map%20(1).html"></iframe>
+<iframe src="https://github.com/danghenry/dataprojects/blob/c48198aed2fcaa11dd3d742de789ed40146367c3/map%20(1).html" height="500" width="500"></iframe>
 
 You can use the [editor on GitHub](https://github.com/danghenry/dataprojects/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
