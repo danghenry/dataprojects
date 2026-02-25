@@ -170,7 +170,7 @@ class FunWithDataExplorer {
 document.addEventListener("DOMContentLoaded", () => {
   const explorer = new FunWithDataExplorer(
     "fwd-data-explorer",
-    "https://yourdomain.com/data/dummy-data.json"
+    "https://github.com/danghenry/dataprojects/blob/main/sample_app_data.json"
   );
   explorer.init();
 });
